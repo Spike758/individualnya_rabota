@@ -1,0 +1,316 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper2{
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back{
+    background: url(../img/lighthouse.png) center no-repeat;
+    background-size: cover;
+}
+header{
+  padding-top: 40px;
+}
+.line{
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    margin-bottom: 12px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.4s;
+}
+header nav a:hover{
+    color:#DD9428;
+}
+nav a:last-child{
+    margin: 0;
+}
+.start .wrapper{
+    display: block;
+}
+.start{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.start h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.description{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 70px;
+    width: 30%;
+    line-height: 45px;
+}
+.request{
+    display: flex;
+    align-items: center;
+}
+.start .btn{
+    padding: 27px 80px;  
+    margin-right: 60px;
+}
+.btn{
+    background-color:#DD9428;
+    color: #331111;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 38px;
+    transition: 0.4s;
+}
+.request .btn:hover, .rqs .btn:hover{
+    background-color: white;
+    color: #DD9428;
+    cursor: pointer;
+}
+.video{
+    font-size: 16px;
+    font-weight: 500;
+    color: #A1A8B6;
+    margin-left: 20px;
+    width: 8%;
+    line-height: 26px;
+}
+.subscribe{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 120px;
+    color: white;
+    margin-bottom: 24px;
+}
+.icons svg{
+    margin-right: 46px;
+}
+.icons svg:last-child{
+    margin: 0;
+}
+.direction{
+    margin: 160px 0;
+
+}
+/* .card{
+    width: 830px;
+    height: 475px;
+}
+.content{
+    padding: 40px 60px 60px 60px;
+}
+.cover{
+    height: 0%;
+    background-size: cover;
+    border-radius: 16px;
+} */
+.card{
+    position: relative;
+}
+.card .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lo{
+    padding: 40px 60px;
+}
+
+.direction h2{
+    margin-bottom: 30px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+.check-all{
+    margin-left: 100px;
+}
+.check-all p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 50px;
+}
+.check-all .btn{
+    padding: 25px 65px;
+    background-color: white;
+    border: 2px solid #DD9428;
+    color: #DD9428;
+    cursor: pointer;
+}
+.check-all .btn:hover{
+    background-color: #DD9428;
+    color: white;
+    cursor: pointer;
+}
+.first{
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29px;
+    color: white;
+}
+.second{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    /* margin-bottom: 264px; */
+}
+.third{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    color: white;
+    width: 28%;
+}
+.ll{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 55px;
+    margin-bottom: 60px;
+    width: 89%;
+}
+.consult{
+    background-image: url(../img/form.png);
+}
+.request-consult{
+    display: flex;
+    padding-top: 133px;
+    padding-bottom: 52px;
+    justify-content: flex-end;
+}
+.rqs{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+.rqs .btn{
+    width: 100%;
+    text-align: center;
+    padding: 26px 46px;
+}
+input[type="text"]{
+    padding: 25px 20px;
+    border-radius: 38px;
+    border: 2px solid #CED8DF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.text{
+    width: 30%;
+    margin-right: 84px;
+}
+.text h2{
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 50%;
+}
+.number{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+form .btn{
+    margin-bottom: 10px;
+}
+
+.rqs p, a{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 80%;
+    transition: 0.4s;
+}
+.rqs a{
+    color: #DD9428;
+}
+.rqs a:hover{
+    color: white;
+
+}
+.rqs ::placeholder{
+    color: #B7C3CC;
+}
+.reviews{
+    padding-bottom: 160px;
+}
+.reviews .third{
+    font-size: 18px;
+    width: 42%;
+}
+/* .reviews .content{
+    padding: 40px 60px 45px 60px;
+} */
+.reviews .check-all{
+    margin-right: 100px;
+    margin-left: 0;
+}
+.reviews .check-all h2{
+    margin-bottom: 40px;
+}
+.reviews .check-all p{
+    margin-bottom: 50px;
+}
+footer{
+    background-color:#F8F8F8;
+    padding: 70px 0;
+}
+footer nav{
+    display: flex;
+}
+footer nav a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#90A4B2;
+    width: 30%;
+    margin-right: 90px;
+    transition: 0.4s;
+}
+footer nav a:hover{
+    color: #DD9428;
+}
+footer nav a:last-child{
+    margin: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo svg{
+    margin-right: 123px;
+}
